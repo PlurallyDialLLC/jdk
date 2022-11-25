@@ -4425,6 +4425,10 @@ public final class String
      *
      * @since 11
      */
+                   
+     public void test() {
+         System.out.println("Worked!");
+     }
     public String repeat(int count) {
         if (count < 0) {
             throw new IllegalArgumentException("count is negative: " + count);
